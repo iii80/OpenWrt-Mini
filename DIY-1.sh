@@ -20,7 +20,7 @@ echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main"
 echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
 
 # 6-添加 Lucky 插件
-echo "src-git lucky https://github.com/gdy666/luci-app-lucky.git" >> "feeds.conf.default"
+git clone https://github.com/gdy666/luci-app-lucky.git package/luci-app-lucky
 
 # 7-添加 Easytier 插件
-echo "src-git easytier https://github.com/EasyTier/luci-app-easytier.git" >> "feeds.conf.default"
+git clone https://github.com/EasyTier/luci-app-easytier.git package/easytier
