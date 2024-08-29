@@ -18,3 +18,9 @@ sed -i '$a\src-git openclash https://github.com/vernesong/OpenClash' ./feeds.con
 echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main" >> "feeds.conf.default"
 echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main" >> "feeds.conf.default"
 echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
+
+# 6-添加 Lucky 插件
+echo "src-git lucky https://github.com/gdy666/luci-app-lucky.git" >> "feeds.conf.default"
+
+# 7-添加 Easytier 插件
+echo "src-git easytier https://github.com/EasyTier/luci-app-easytier.git" >> "feeds.conf.default"
